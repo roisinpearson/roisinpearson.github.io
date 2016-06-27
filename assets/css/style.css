@@ -894,7 +894,7 @@ margin-top: -233px;
     color:#fff;
     margin-left:20px;
     font-family: 'open_sansregular';
-    font-size:0.9375rem;
+    font-size:1.9375rem;
 }
 
 /*news_three_area*/
@@ -910,6 +910,13 @@ margin-top: -233px;
 .news_three_area .single_new_three_left h5{
     color:#232323;
     font-size:1.4375rem;
+    line-height: 2rem;
+    margin-left: 20px;
+}
+
+.news_three_area .single_new_three_left h6{
+    color:#232323;
+    font-size:1.1375rem;
     line-height: 2rem;
     margin-left: 20px;
 }
@@ -930,7 +937,7 @@ margin-top: -233px;
 }
 .news_three_area .new_three_comments a{
     color:#83969f;
-    font-size: 1.875rem;
+    font-size: 2.575rem;
     padding:0px 20px;
 
 }
