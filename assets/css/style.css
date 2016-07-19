@@ -625,6 +625,10 @@ ul#menu.nav.navbar-nav{
 
 }
 
+.dprojects {
+    background: ;
+}
+
 .home .main_home{
 
     padding-top: 250px;
@@ -644,6 +648,12 @@ ul#menu.nav.navbar-nav{
 .about{
     background: #835fa8;
     height: 600px;
+
+}
+
+.about1{
+    background: #835fa8;
+    height: 400px;
 
 }
 .main_about_area{}
@@ -744,13 +754,13 @@ content: "";
 }
 .main_service_area{
 
-    width: 1200px;
+    /*width: 1200px;*/
 }
 .single_service{
-    margin-bottom:10px;
+    margin-bottom:30px;
 }
 
-.skillclass { 
+/*.skillclass { 
 
     width: 500px;
     margin-left: 45.5%;
@@ -761,7 +771,7 @@ content: "";
 width: 400px;
 padding: 5px;
 margin-top: -20px;
-margin-left: 50px;
+margin-left: 10px;
  }
 
  .skillclass2 { 
@@ -769,10 +779,10 @@ width: 400px;
 margin-left: 60%;
 padding: 5px;
 margin-top: -233px;
- }
+ }*/
 
 .single_service .single_service_icon i{
-    margin-bottom:10px;
+    margin-bottom:30px;
     font-size:2.5rem;
     color:#379c88;
     display: inline-block;
@@ -788,6 +798,10 @@ margin-top: -233px;
     font-size:0.875rem;
 }
 
+.single_service img{
+    width: 50%;
+}
+
 
 /*new section css*/
 .news{
@@ -797,13 +811,18 @@ margin-top: -233px;
 
 .projects {
     width: 1400px;
-    height: 65px;
-    background-color: #835fa8;
+    height: 85px;
+    background-color: #2b303b;
+    margin-top: 250px;
+
 }
 
 .projects h3{
-    margin-left: 40%;
-    padding: 10px;
+    /*margin-left: 40%;*/
+    width: 20%;
+    margin: auto;
+    /*margin-top: 15px;*/
+    padding: 20px;
     color: #ffffff;
     }
 
@@ -819,7 +838,7 @@ margin-top: -233px;
     padding: 95px 20px 0px 30px;
     max-width: 80%;
     margin-left: 20%;
-	min-height: 550px;
+	min-height: 520px;
 }
 .single_new_top_one h3{
     color:#2b303b;
@@ -834,7 +853,7 @@ margin-top: -233px;
 }
 
 .top_news_right_img img{
-	height:550px;
+	height:540px;
 }
 
 /*new_two_area*/
@@ -1018,7 +1037,7 @@ margin-top: -233px;
 }
 .footer_widget p{
     color:#f6f7fa;
-    font-size:0.8125rem;
+    font-size:1.0125rem;
     font-family: 'open_sansregular';
     max-width: 80%;
 }
