@@ -680,9 +680,9 @@ height: 1800px;
 background: #bfbfbf;
 }
 
-/*.about3 {
-    height: 500px;
-}*/
+.about3 {
+    height: 100%;
+}
 
 .main_about_area{}
 .single_about_left{
@@ -1072,6 +1072,11 @@ margin-top: -233px;
 margin-top: -15%;
     padding: 50px;
 
+}
+
+.webbased {
+    height: 100%;
+    width: 100%;
 }
 
 .webbased h1 {
