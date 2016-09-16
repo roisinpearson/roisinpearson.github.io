@@ -1057,8 +1057,9 @@ margin-top: -233px;
     width: 100%;
     height: 100%;
     background-color: #83969f;
+    margin-top: 17%;
     /*margin-top: 75%;*/
-    padding: 60px;
+    /*padding: 60px;*/
 }
 
 .graphic img {
@@ -1091,6 +1092,7 @@ margin-top: -15%;
     /*width: 100%;*/
     padding: 20px;
     font-size: 2.5rem;
+    margin-top: 5%;
 }
 
 .sculpture h1 {
