@@ -1,0 +1,54 @@
+<! DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Webpage</title>
+<style type = "text/css">
+.banner { position: relative; overflow: auto;
+  background: #0f0;
+  min-height: 100px; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="http://unslider.com/unslider.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$(function() {
+$('.banner').unslider();
+});
+});
+</script>
+
+</head>
+
+
+<body>
+<br/>
+<h1 style="font-family:verdana; font-size:50px; font-weigth:bold; font-style:italic;" align="center" >Logo</h1>
+
+<div class="banner">
+<ul>
+<li>This is a slide.</li>
+<li>This is another slide.</li>
+<li>This is a final slide.</li>
+</ul>
+</div>
+
+
+<div id = "footer">
+    <div class = "container">
+        <ul>
+            <li><a href = "?">Terms of use</a></li>
+            <li><a href = "?">Privacy</a></li>
+            <li><a href = "?">Cookies</a></li>
+            <li><a href = "?">Accessibility</a></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html> 

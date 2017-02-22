@@ -1,0 +1,540 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: FontName;
+    src: url('PaulGroteskSoft-Thin-Trail.otf');
+}
+
+html {
+  font-family: FontName;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+body {
+  background-color: #02132B !important ;
+}
+
+/* NAVIGATION */
+.menu {
+  position:fixed;
+  top:0px;
+  width:100%;
+  height:auto;
+   background-color: rgba(51, 51, 51, 0.8);
+/*  z-index:1;*/
+}
+
+.menu-scroll {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color:rgba(51, 51, 51, 0.8);
+}
+
+.direction {
+    display: inline;
+}
+
+.nav  li:hover {
+  color:#B73737 ;
+}
+
+.nav ul ul {
+    display: none;
+    position: absolute; top: 60px;
+    margin-left: 0%;
+    font-size: 1rem;
+    list-style-type: none;
+    background-color: #B73737;
+    width: 10%;
+    padding: 1%;
+
+}
+
+
+ul#menu.nav.navbar-nav{
+    display: none;
+    background-color:#B73737;
+}
+.header .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+.header .navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+
+}
+.header .navbar-brand {
+    padding: 7px 15px;
+}
+
+.header .navbar-form {
+    margin-top: 12px;
+    margin-right:60px;
+}
+/*END NAVIGATION*/
+
+h2 {
+  font-family: FontName;
+  font-weight: 200;
+  margin: 0, auto;
+  text-align: center;
+}
+
+p {
+  font-family: FontName;
+  font-weight: 200;
+  font-size: 20%;
+  margin: 0, auto;
+  text-align: center;
+}
+
+.text1 p {
+  font-family: FontName;
+  font-weight: 200;
+  font-size: 20%;
+  margin: 0, auto; !important
+  text-align: center !important;
+  margin-top: -5%;
+  font-size: 2rem;
+  width: 100%;
+  margin-left: 18%;
+}
+
+.text1.more p {
+    margin-left: 25%;
+}
+
+.name img {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+.name h2 {
+  font-family: FontName;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  height: 3rem;
+  /*background: #ccc;*/
+}
+
+main {
+  /*background: #fc0;*/
+  padding: 0 2.5%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.banner img {
+  width: 140%;
+  height: auto;
+  margin-left: -30%;
+  margin-top: -35%;
+  object-fit: contain;
+
+}
+
+main section img {
+   object-fit: cover;
+   position: relative;
+   display: block;
+   background: #AAAAAA;
+   margin: 0 2% 2% 0;
+   float: left;
+   height: 100%;
+   overflow: visible;
+   }
+
+main section {
+  position: relative;
+  height: 27.666vw;
+  width: 47.66667%;
+  background: #AAAAAA;
+  margin: 0 1% 1% 0;
+  float: left;
+  object-fit: none;
+
+}
+
+
+.text1 {
+  opacity: 0;
+}
+
+.text1 h2 {
+  font-family: FontName;
+  font-weight: 200;
+  margin: 0, auto;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #fff;
+  padding-top: 10%;
+}
+
+
+
+/*a {
+  text-decoration: none;
+}*/
+
+.text1 a {
+  text-decoration: none;
+}
+
+main section .text1:hover {
+  opacity: 100;
+}
+
+/*main section:nth-child(3n) {
+margin-right: 0;
+background: #AAAAAA;
+}*/
+
+main section > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  /*padding: 2.5%;*/
+  /*overflow: hidden;*/
+  /*background: #5BB9C7;
+  background: rgba(91, 185, 199, 0.7);
+  overflow: hidden;*/
+  /*transition: height 1s ease-in-out .01s;*/
+  /*property duration method delay*/
+}
+
+main section:hover > * {
+  height: 100%;
+
+  transition-duration: 0.1s;
+  background: #5BB9C7;
+  background: rgba(91, 185, 199, 0.9);
+  overflow: hidden;
+}*/
+
+main section > * * {
+  padding: 2.5%;
+}
+
+main section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 25%;
+}
+
+main section p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 5%;
+  text-align: center;
+
+}
+
+.about h2 {
+  font-size: 5rem;
+  margin-top: 5%;
+  color: white;
+}
+
+.about img {
+  width: 50%;
+}
+
+.about p {
+  font-family: FontName;
+  font-size: 1rem;
+  color: white;
+  width: 40%;
+  margin-left: 50%;
+  line-height: 1.5rem;
+  margin-top: 5%;
+}
+
+.other {
+  background-color: #656666;
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+
+.process img {
+  margin-left: 5%;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.somtext p {
+  margin-top: -20%;
+  font-size: 1.5rem;
+  font-family: FontName;
+  color: white;
+  margin-left: 55%;
+  width: 35%;
+  text-align: left;
+  line-height: 2rem;
+
+}
+
+.som h3 {
+  margin-top: 12%;
+}
+
+section div h2 {
+  font-size: 5rem;
+  font-family: FontName;
+  color: white;
+  margin-top: 10%;
+}
+
+section div h3 {
+  font-size: 3rem;
+  font-family: FontName;
+  color: white;
+margin-left: 47%;
+margin-top: 4%;
+}
+
+section  div h4 {
+  font-size: 1.5rem;
+  font-family: FontName;
+  color: white;
+  margin-top: 2%;
+text-align: center;
+}
+
+section div p {
+  font-size: 1.5rem;
+  font-family: FontName;
+  color: white;
+  margin-top: 15%;
+  margin-left: 55%;
+  width: 35%;
+  text-align: left;
+  line-height: 2.5rem;
+}
+
+.side-top img{
+  width: 50%;
+  margin-left: 2%;
+  margin-top: -22%;
+}
+
+.side-top-spm img {
+  width: 48%;
+  margin-top: -32%;
+  margin-left: 2%;
+}
+
+.side-top-twitter img{
+  width: 40%;
+  margin-left: 5%;
+  margin-top: -23%;
+}
+
+.btn {
+  margin-left: 45%;
+  margin-top: : 20%;
+  padding-top: 10%;
+}
+
+.twit p {
+  font-size: 1.5rem;
+  font-family: FontName;
+  color: white;
+  margin-top: 15%;
+  margin-left: 55%;
+  width: 35%;
+  text-align: left;
+  line-height: 2.5rem;
+}
+}
+
+a {
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    background: #3bd3ba;
+    color: #fff !important;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+    text-align: center;
+    width: 15%;
+    padding: 1%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.som img {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  padding-bottom: 3%;
+}
+
+.spm {
+  margin-left: 6%;
+}
+
+.spm img{
+  position: relative;
+  margin-left: 8%;
+  margin-top: 5%;
+  width: 45%;
+  margin: 1% 1%;
+}
+
+.story img {
+  margin-top: 5%;
+  margin-left: 7%;
+}
+
+.poster img {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 27%;
+}
+
+.youtubevid {
+    /*width: 100%;*/
+    margin-left: 20%;
+    display: block;
+}
+#youtube_canvas {
+    margin: 0 auto;
+    /*margin-left: 40%;*/
+/*   width: 50%;*/
+}
+
+.my-slider {
+        position: relative;
+        width: 100%;
+        overflow: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .myslider img {
+      width: 60%;
+    }
+
+    .carousel{
+      background: #2f4357;
+      margin-top: 20px;
+      width: 70%;
+      height: auto;
+      margin-left: 15%;
+  }
+  .carousel .item img{
+      margin: 0 auto; /* Align slide image horizontally center */
+  }
+  .bs-example{
+  	margin: 20px;
+
+
+    /*
+    .my-slider ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    .my-slider li{
+    padding: 0px;
+    margin: 0px;
+    }
+    .my-slider ul li {
+        float:left;
+        padding: 0px;
+        margin: 0px;
+        min-height: 200px;
+        -webkit-background-size: 100% auto;
+        -moz-background-size: 100% auto;
+        -o-background-size: 100% auto;
+        -ms-background-size: 100% auto;
+        background-size: 100% auto;
+        background-position-y: -75px;
+        box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+    }*/
+
+footer {
+  height: 2rem;
+  background: #ddd;
+  margin-top: 10%;
+}
+
+
+
+@media screen and (max-width: 900px){
+
+  main section h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+      main section {
+        height: 46.25vw;
+        width: 48.75%;
+      }
+
+      main section:nth-child(3n) {
+      margin-right: 2.5%;
+      }
+
+      main section:nth-child(2n) {
+      margin-right: 0;
+      background: #666;
+      }
+
+}
+
+@media screen and (max-width: 600px) {
+
+      main section {
+        height: 95vw;
+        width: 100%;
+        margin-right: 0 !important;
+      }
+
+      /*main section:nth-child(3n) {
+      margin-right: 2.5%;
+      }
+
+      main section:nth-child(2n) {
+      margin-right: 0;
+      background: #666;
+      }*/
+}
