@@ -113,6 +113,11 @@ p {
     margin-left: 25%;
 }
 
+.me img {
+  width: 45%;
+  margin-top: -20%;
+}
+
 .name img {
   width: 70%;
   height: auto;
@@ -269,7 +274,7 @@ main section p {
   width: 40%;
   margin-left: 50%;
   line-height: 1.5rem;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .other {
