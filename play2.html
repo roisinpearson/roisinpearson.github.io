@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Roisin Pearson</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+      <header class="header navbar-fixed-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <div class="nav">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="index.html" class="external nav" id="homepage">Work</a></li>
+                          <li><a href="play.html" class="external" id="buy"> Play </a></li>
+                          <li><a href="about.html" class="external" id="buy"> About</a></li>
+                          <li><a href="https://drive.google.com/file/d/0B-75zM62Iq77ZU9ZaHNHblNqZlE/view?usp=sharing" id="previous">Resume </a></li>
+                      </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </header>
+
+
+
+
+        <main>
+          <div class="container">
+
+      <!-- Page Header -->
+      <div class="row">
+          <div class="col-lg-12">
+              <h1 class="page-header">Play </h1>
+                  <h3> sample of my artwork </h3>
+
+          </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Projects Row -->
+      <div class="row">
+
+        <div id='masonry'>
+
+            <div class="grid">
+  <div class="grid-sizer"></div>
+  <div class="grid-item">
+    <img src="images/play/lady.jpg" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/boy.jpg" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/relaxing.gif" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/uki.jpg" />
+  </div>
+  <div class="grid-item">
+    <img src="" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/shades.jpg" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/house.png" />
+  </div>
+  <div class="grid-item">
+    <img src="images/play/mo1.png" />
+  </div>
+  <div class="grid-item">
+    <img src="" />
+  </div>
+</div>
+
+
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+
+          </main>
+
+            <hr>
+
+
+  <section>
+                    <div class="footer">
+                    <div class="container">
+
+                            <a href='https://www.facebook.com/roisin.pearson.1'><i class="fa fa-facebook fa-2x fa-fw"></i></a>
+                            <a href='https://twitter.com/roisin_pearsonn'><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+                            <a href='#'><i class="fa fa-youtube-play fa-2x fa-fw"></i></a>
+                            <a href='https://www.linkedin.com/in/roisin-pearson-581631120/'><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+                            <div class="copy">
+                            &copy; Roisin Pearson
+                          </div>
+                          </span>
+                    </div>
+                  </div>
+                </section>
+
+
+
+                  <script src="js/jquery.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+                  <!-- <script>
+  var container = document.querySelector('#masonry');
+  var masonry = new Masonry(container, {
+    columnWidth: 60,
+    itemSelector: '.item'
+  });
+</script> -->
+          <script>
+          var $grid = $('.grid').masonry({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            columnWidth: '.grid-sizer'
+          });
+          // layout Masonry after each image loads
+          $grid.imagesLoaded().progress( function() {
+            $grid.masonry();
+          });
+          </script>
+
+
+                  <!-- Bootstrap Core JavaScript -->
+                  <script src="js/bootstrap.min.js"></script>
+
+
+      </body>
+  </html>
