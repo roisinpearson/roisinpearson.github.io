@@ -231,6 +231,10 @@ main section {
   text-align: center;
   font-size: 3.5rem;
   color: #fff;
+  padding-top: 18%;
+}
+
+.text1.vic h2 {
   padding-top: 10%;
 }
 
@@ -531,8 +535,10 @@ margin-left: auto;
 }
 
 .story img {
+  display: block;
   margin-top: 5%;
-  margin-left: 7%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .story.two img {
@@ -550,7 +556,9 @@ margin-left: auto;
 .poster img {
   width: 50%;
   margin-top: 5%;
-  margin-left: 27%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .censusdesc {
