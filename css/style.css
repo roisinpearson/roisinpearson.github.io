@@ -258,6 +258,10 @@ height: 10%;
 
 }
 
+a.btn.btn-info.two {
+  margin-top: 8%;
+}
+
 
 main section .text1:hover {
   opacity: 100;
@@ -437,7 +441,7 @@ margin-left: auto;
 
 .side-top-spm img {
   width: 48%;
-  margin-top: -32%;
+  margin-top: -25%;
   margin-left: 2%;
 }
 
@@ -533,6 +537,31 @@ margin-left: auto;
   width: 45%;
   margin: 1% 1%;
 }
+
+.spm.three p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 70%;
+
+}
+
+.longimg img {
+  width: 80%;
+}
+
+.spm.three.web img {
+position: relative;
+display: inline-block;
+margin-left: -35%;
+}
+
+.spm.three.mob img{
+width: 25%;
+}
+
+
 
 .story img {
   display: block;

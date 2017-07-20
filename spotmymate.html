@@ -71,46 +71,65 @@
           </div>
             <div>
           </section>
-          <!-- <section>
-            <div class="bs-example">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                  <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <div class="carousel-inner">
-                      <div class="item active">
-                          <img src="images/spm/plan1.png" alt="First Slide">
-                      </div>
-                      <div class="item">
-                          <img src="images/spm/plan2.png" alt="Second Slide">
-                      </div>
-                      <div class="item">
-                          <img src="images/spm/plan3.png" alt="Third Slide">
-                      </div>
-
-
-                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                      <span class="glyphicon glyphicon-chevron-left"></span>
-                  </a>
-                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right"></span>
-                  </a>
-              </div>
-          </div> -->
 
           <section>
             <div class="spm">
-              <h2> Sculpture and Website </h2>
+              <h2>  </h2>
              <img src="images/spm/spotmymate.jpg"> </img>
              <img src="images/spm/viewofsculpture.jpg"> </img>
              <img src="images/spm/sculpture.jpg"> </img>
              <img src="images/spm/both.jpg"> </img>
+
+<h2> Interaction Flowchart </h2>
+<!-- <h3> how each part is connected </h3>  -->
+           <div class="longimg">
+<img src="images/spm/timeline.png"> </img>
+           </div>
            </div>
           </section>
+
+          <section>
+            <div class="spm three">
+<h2> Website component </h2>
+<p> The website involved in Spot my Mate was created as a basic way to track the users location.
+  Ideally this would be in the from of an app but for the limited amount of time and resources we
+  had for this project I had to make it a website that could be accessed on a phone.
+
+The website was created on Github pages and its sole feature is to prompt the user to enter in their name.
+The website then uses a GeoLocation API that tracks each users location when they press the "Socialise Me" button,
+this location is then paired up with the name entered. These real time locations of the
+user are sent to a database hosted on the Firebase platform. These names and locations are
+then pulled down to a processing sketch, which lights up the LED’s on the sculpture from the lat and lon coordinates.
+</p>
+<img src="images/spm/webspm.png"> </img>
+<img src="images/spm/mobilespm.png"> </img>
+
+<p> These were my intial wireframes for the web and mobile version. I wanted a really simple interface so that
+  all the user would know exactly what to do. I chose the design that had the text field and button at the top
+  of the screen so that repeat users could easily and quickly enter in their information, whereas one time users could
+  scroll down and read more about the application. </p>
+<h2> First development </h2>
+    <div class="longimg">
+    <img src="images/spm/firstd.png"> </img>
+    </div>
+<h2> Mobile and Web version </h2>
+<div class="longimg">
+    <img src="images/spm/webmob.png"> </img>
+  </div>
+
+<h2> Linking to Firebase </h2>
+<p> The interaction of clicking the 'Socialise Me' button sends your latitude and longitude values to the Firebase database
+  along with the name entered. On the left is the Firebase database with the stored names and their correspondng values.
+  This can be accessed as a JSON object so that the processing sketch can pull the data down from the web. </p>
+<img src="images/spm/explain.png"> </img>
+
+  <img src="images/spm/firebase.png"> </img>
+
+<a href="https://gist.github.com/roisinpearson/9011e4d3c6173ec684283a945856ed5b" class="btn btn-info two" role="button">View Processing Sketch</a>
+
+</div>
+          </section>
+
           <section>
           <div> <h3> Video </h3> </div>
         </section>
