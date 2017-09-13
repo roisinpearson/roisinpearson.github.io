@@ -445,19 +445,21 @@ margin-left: auto;
 }
 
 .side-top img{
-  width: 50%;
-  margin-left: 2%;
+  width: 40%;
+  margin-left: 6%;
   margin-top: -22%;
 }
 
 .side-top-spm img {
-  width: 48%;
+  width: 45%;
   margin-top: -25%;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 .side-top.vic img {
-  margin-top: -35%;
+  margin-top: -25%;
+  width: 31%;
+  margin-left: 10%;
 }
 
 .side-top-twitter img{
